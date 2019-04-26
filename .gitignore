@@ -6,3 +6,4 @@
 /.eggs/
 /.mypy_cache/
 /model/
+.ipynb_checkpoints
