@@ -19,6 +19,8 @@ def main(argv):
 
         for result in results:
             for key in result.keys():
+                if key == 'date':
+                    continue
                 if key not in features:
                     features[key] = []
 

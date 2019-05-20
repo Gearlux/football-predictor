@@ -27,6 +27,7 @@ class Dataset:
                 continue
 
             processed_result = {
+                'date' : result['Date'],
                 'result': result['FTR'],
                 'odds-home': float(result['B365H']),
                 'odds-draw': float(result['B365D']),
