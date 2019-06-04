@@ -1,0 +1,12 @@
+random_method,uniform_mersenne
+reduction_method,
+reduction_interval,50
+reduction_window,20
+grid_downsample,0.034
+reduction_threshold,0.2
+reduction_metric,val_acc
+reduce_loss,False
+experiment_name,bet_model_04
+complete_time,05/28/19/21:05
+x_shape,"(16387, 21)"
+y_shape,"(16387, 3)"
